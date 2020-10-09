@@ -1,0 +1,19 @@
+﻿<Window x:Class="FootballStatisticWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FootballStatisticWPF"
+        mc:Ignorable="d"
+        Title="Футбольна статистика" Height="450" Width="800">
+    <Grid x:Name="LayoutRoot" Background="White">
+
+        <Button Content="Найбільше голів" x:Name="maxGoalsPerDay" HorizontalAlignment="Left" Height="51" Margin="33,66,0,0"  VerticalAlignment="Top" Width="150" Click="Button1_Click"/>
+        <Button Content="Ліга 1" x:Name="League1Button" HorizontalAlignment="Left" Height="51" Margin="188,66,0,0" VerticalAlignment="Top" Width="150" Click="Button2_Click"/>
+        <Button Content="Ліга 2" x:Name="League2Button" HorizontalAlignment="Left" Height="51" Margin="343,66,0,0" VerticalAlignment="Top" Width="150" Click="Button3_Click"/>
+        <Button Content="Ліга 3" x:Name="League3Button" HorizontalAlignment="Left" Height="51" Margin="498,66,0,0" VerticalAlignment="Top" Width="150" Click="Button4_Click"/>
+        <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Height="297" Margin="108,137,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="465"/>
+
+
+    </Grid>
+</Window>
